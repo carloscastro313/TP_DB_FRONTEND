@@ -1,9 +1,10 @@
-import ReactJson from "react-json-view"
+import ReactJson from "react-json-view";
 
-export const DisplayJson = ({json}) => {
+export const DisplayJson = ({ json }) => {
   return (
-    <div>
-        <ReactJson src={json} />
+    <div className="json">
+      <h1 className="title">Resultado</h1>
+      <ReactJson src={json} />
     </div>
-  )
-}
+  );
+};
