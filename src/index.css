@@ -38,7 +38,7 @@ body {
 }
 
 .botones button:hover {
-  background-color: blue;
+  background-color: rgb(95, 95, 223);
 }
 
 .json {

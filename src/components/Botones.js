@@ -1,6 +1,7 @@
 import React from "react";
 import axiosClient from "../config/axios";
 import routes from "../constants/routes";
+import BuscadorDetalle from "./BuscadorDetalle";
 
 export const Botones = ({ setJson }) => {
   const fetchTickets = async (route) => {
@@ -24,6 +25,7 @@ export const Botones = ({ setJson }) => {
             {r.name}
           </button>
         ))}
+        <BuscadorDetalle fetchTickets={fetchTickets} />
       </div>
     </div>
   );

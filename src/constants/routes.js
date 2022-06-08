@@ -65,9 +65,19 @@ const routes = [
     id: 13,
   },
   {
-    route: "/sinCobertura",
-    name: "Usuario sin cobertura",
-    id: 13,
+    route: "/reclamosMarzo",
+    name: "Reclamos en el mes de marzo",
+    id: 14,
+  },
+  {
+    route: "/reclamosSinResolver",
+    name: "Reclamos sin resolver",
+    id: 15,
+  },
+  {
+    route: "/reclamosConversorExterno",
+    name: "Reclamos por cambio de conversor o reparacion externa",
+    id: 16,
   },
 ];
 
