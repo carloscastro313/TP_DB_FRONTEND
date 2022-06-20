@@ -79,6 +79,46 @@ const routes = [
     name: "Reclamos por cambio de conversor o reparacion externa",
     id: 16,
   },
+  {
+    route: "/cantidadDesperfectos",
+    name: "Cantidad de desperfectos",
+    id: 17,
+  },
+  {
+    route: "/zonaMayorDesperfectos",
+    name: "La zona con mayor cantidad de desperfectos",
+    id: 18,
+  },
+  {
+    route: "/consultasEmpleados",
+    name: "Reclamos de clientes que tambien son empleados",
+    id: 19,
+  },
+  {
+    route: "/clienteMayorTickets",
+    name: "Cliente con mayor cantidad de reclamos",
+    id: 20,
+  },
+  {
+    route: "/empleadoPlanes",
+    name: "Empleados que son clientes, que tengan al menos 2 planes y realizaron un reclamos",
+    id: 21,
+  },
+  {
+    route: "/empleadoMayorResoluciones",
+    name: "Empleados con mayor cantidad de reclamos resueltos",
+    id: 22,
+  },
+  {
+    route: "/horaMasOcupada",
+    name: "La hora mas ocupada",
+    id: 23,
+  },
+  {
+    route: "/clienteMasCaro",
+    name: "El cliente con el precio total mas alto",
+    id: 24,
+  },
 ];
 
 export default routes;
