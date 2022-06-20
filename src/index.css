@@ -27,7 +27,7 @@ body {
   flex-direction: column;
   gap: 10px;
   margin: auto 40px;
-  overflow: hidden;
+  overflow: auto;
 }
 
 .botones button {
